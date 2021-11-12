@@ -5,8 +5,6 @@
  * @c1: Parameter structure 1
  * @c2: Parameter structure 2
  * @c3: Parameter pointer to structure
- *
- * Return: return the multiplication
  */
 void multiplication(complex c1, complex c2, complex *c3)
 {
