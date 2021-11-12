@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
- * multiplication - function that performs the multiplication operation to complex numbers
+ * multiplication - function that performs the multiplication operation to
+ * complex numbers
  *
  * @c1: Parameter structure 1
  * @c2: Parameter structure 2
