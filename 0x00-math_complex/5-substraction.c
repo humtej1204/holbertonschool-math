@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * addition - function that performs the substraction operation to complex numbers
+ * substraction - function that performs the substraction operation to complex numbers
  *
  * @c1: Parameter structure 1
  * @c2: Parameter structure 2
