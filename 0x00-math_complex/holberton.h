@@ -19,6 +19,7 @@ struct complex_number
 	double im;
 };
 
+void display_complex_number(complex c);
 typedef struct complex_number complex;
 
 #endif
