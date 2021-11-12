@@ -9,7 +9,7 @@
 double argument(complex c)
 {
         double x, ret;
-        
+
         x = c.im / c.re;
         ret = atan (x);
 
