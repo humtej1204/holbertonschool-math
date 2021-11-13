@@ -9,11 +9,6 @@
  */
 void multiplication(complex c1, complex c2, complex *c3)
 {
-	double m_arg, m_mod;
-
-	m_arg = modulus(c1) * modulus(c2);
-	m_mod = argument(c1) + argument(c2);
-
-	c3->re = m_arg * cos(m_mod);
-	c3->im = m_arg * sin(m_mod);
+	c3->re = (c1.re * c2.re) - (c1.im * c2.im);
+	c3->im = (c1.re * c2.im) + (c1.im * c2.re);
 }
