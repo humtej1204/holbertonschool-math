@@ -1,6 +1,13 @@
 #include "heron.h"
-#include <math.h>
-
+/**
+ * heron - funtion that return the Heron sequence until having convergence
+ * with an error less or equal to 10^(-7)
+ *
+ * @p: Parameter with the number to compare the root
+ * @x0: Parameter with the start point
+ *
+ * Return: The head of the created linked
+ */
 t_cell *heron(double p, double x0)
 {
 	double x1, error = 0;
@@ -15,7 +22,7 @@ t_cell *heron(double p, double x0)
 	new->elt = x1;
 	new->next = NULL;
 
-	error = (x1 > sqrt(p)) ? x1 - sqrt(p) : sqrt(p) - x1;
+	error = ((x1 * x1) > p) ? (x1 * x1) - p : p - (x1 * x1);
 
 	if (error <= 0.0000001)
 	{
