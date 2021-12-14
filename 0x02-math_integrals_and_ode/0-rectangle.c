@@ -23,7 +23,6 @@ double rectangle_method(double a, double b, int steps)
 		f_x = var_x * (1 / (1 + (lp_x * lp_x)));
 		res = res + f_x;
 		lp_x = lp_x + var_x;
-		printf("%d\n", i);
 		i++;
 	}
 
